@@ -1,15 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "Urban Applause",
+    siteUrl: "https://urbanapplause.com",
   },
   plugins: [
     "gatsby-plugin-sass",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "G-MK4CQZ4HEE",
-      },
-    },
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",

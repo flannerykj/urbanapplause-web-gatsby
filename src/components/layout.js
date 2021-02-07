@@ -9,8 +9,10 @@ export default function Layout({ children, showNavbar }) {
 
     <main className="main" style={{ display: 'flex', minHeight: '100vh', flexDirection: 'column' }}>
       {showNavbar && <Menu />}
-      <div className="container" style={{ marginTop: 64 }}>
+      <div className="container is-max-desktop" style={{ marginTop: 64 }}>
+        <section className='section'>
         {children}
+        </section>
       </div>
       <Footer />
     </main>

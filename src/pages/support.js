@@ -6,7 +6,7 @@ const SupportPage = () => (
     <div>
       <h1 className='title is-1'>Support</h1>
       <div className='_section' style={{ marginTop: 16 }}>
-        Email flannery.jefferson@gmail.com for questions & feedback. 
+        <p>Email flannery.jefferson@gmail.com for questions & feedback. </p>
       </div>
     </div>
   </Layout>

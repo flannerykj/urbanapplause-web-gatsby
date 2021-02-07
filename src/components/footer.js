@@ -12,10 +12,6 @@ export default function Footer() {
           </p>
 
           <p className="level-item">
-            <a href='/support'>Support</a>
-          </p>
-          
-          <p className="level-item">
             <a href='/privacy-policy'>Privacy Policy</a>
           </p>
 
@@ -36,6 +32,7 @@ export default function Footer() {
           </span>
         </a>
       </div>
+
     </footer>
   )
 }
