@@ -23,7 +23,10 @@ export default function Footer() {
 
       <div className="container" style={{ textAlign: 'center', marginTop: '48px' }}>
         <p className='is-centered' style={{ marginBottom: '12px' }}>
-        Urban Applause &copy;2021
+        Urban Applause &copy;
+        <script type="text/javascript">
+          document.write(new Date().getFullYear());
+        </script>
         </p>
 
         <a target='_blank' className='social-link' href='https://github.com/flannerykj/urbanapplause-ios' target='_blank'>
