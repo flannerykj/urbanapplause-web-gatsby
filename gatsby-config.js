@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "",
+        trackingId: "G-MK4CQZ4HEE",
       },
     },
     "gatsby-plugin-sharp",
