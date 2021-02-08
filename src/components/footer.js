@@ -8,15 +8,15 @@ export default function Footer() {
       <div className="container is-centered" style={{ maxWidth: 800 }}>
         <div className="level">
           <p className="level-item">
-            <a className="link is-info" href='/about'>About</a>
-          </p>
-
-          <p className="level-item">
             <a href='/privacy-policy'>Privacy Policy</a>
           </p>
 
           <p className="level-item">
             <a href='/terms-of-service'>Terms of Service</a>
+          </p>
+
+          <p className="level-item">
+            <a href='mailto:flannery.jefferson@gmail.com'>Support</a> 
           </p>
         </div>
       </div>
